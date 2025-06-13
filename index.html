@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejando Conexão Campo e Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Festejando Conexão</h1>
+            <h2>Campo & Cidade</h2>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <p>Unindo tradições rurais e urbanas em uma celebração única!</p>
+            <a href="#eventos" class="btn">Participe</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="section-light">
+        <div class="container">
+            <h2>Sobre o Evento</h2>
+            <div class="content-wrapper">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Campo e cidade">
+                <div class="text-content">
+                    <p>O "Festejando Conexão Campo e Cidade" é um evento anual que celebra a integração entre a vida rural e urbana. Nosso objetivo é fortalecer os laços entre esses dois mundos, promovendo o entendimento mútuo e a valorização das tradições.</p>
+                    <p>Durante o evento, você encontrará feiras de produtos orgânicos, oficinas de artesanato, apresentações culturais, gastronomia típica e muito mais!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="eventos" class="section-dark">
+        <div class="container">
+            <h2>Nossos Eventos</h2>
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <h3>Feira de Produtos Orgânicos</h3>
+                    <p>Sabores frescos direto do campo para sua mesa</p>
+                    <span class="data">Todo sábado, 8h-12h</span>
+                </div>
+                <div class="evento-card">
+                    <h3>Oficinas Rurais</h3>
+                    <p>Aprenda técnicas tradicionais de cultivo e artesanato</p>
+                    <span class="data">Domingo, 14h-17h</span>
+                </div>
+                <div class="evento-card">
+                    <h3>Festival Gastronômico</h3>
+                    <p>Pratos que unem ingredientes urbanos e rurais</p>
+                    <span class="data">Sexta a domingo, 19h-22h</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section-light">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="galeria-grid">
+                <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Feira de produtos">
+                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Oficina rural">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Festival gastronômico">
+                <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Apresentação cultural">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section-dark">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Festejando Conexão Campo e Cidade. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#"><span class="icon">📱</span></a>
+                <a href="#"><span class="icon">📷</span></a>
+                <a href="#"><span class="icon">📘</span></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
